@@ -1,0 +1,21 @@
+# Site settings
+title: Heads or Tails? neither? Both?
+header-img: img/home-bg.png
+email: cu364@nyu.edu
+copyright_name: Chrisaric
+description: > # this means to ignore newlines until "baseurl:"
+  Figuring out this game of life.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Chrisaric
+learn_profile: Chrisaric
+email_username: cu364@nyu.edu
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
